@@ -20,12 +20,12 @@ a = len(s)
 # print(text.replace("fun", "awesome")) 
 
 
-# text = "Apples,Bananas,Pineapples"
-# print(text.split(","))
-# print(",".join(['Apples', 'Bananas', 'Pineapples']))
+text = "Apples,Bananas,Pineapples"
+print(text.split(","))
+print(",".join(['Apples', 'Bananas', 'Pineapples']))
 
 text = "Python123"
-print(text.isalpha()) # Output: False
-print(text.isdigit()) # Output: False
-print(text.isalnum()) # Output: True
-print(text.isspace()) # Output: False
+# print(text.isalpha()) # Output: False
+# print(text.isdigit()) # Output: False
+# print(text.isalnum()) # Output: True
+# print(text.isspace()) # Output: False
